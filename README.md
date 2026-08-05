@@ -1,16 +1,23 @@
-## Hi there 👋
+# Piyush Dua
 
-<!--
-**PDgit12/PDgit12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building tools AI coding agents actually need: local-first memory, prompt-to-harness generation, and knowledge layers with real audit trails instead of blind trust.
 
-Here are some ideas to get you started:
+[Portfolio](https://pdgit12.github.io/piyush-dua-portfolio/) · [LinkedIn](https://www.linkedin.com/in/piyush-dua-56b4aa2a1/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I'm building
+
+**[harnage](https://github.com/PDgit12/harnage)**: generates a complete, type-checked AI agent harness from a plain-language description, an alternative to a Claude Code or Goose subscription rather than a wrapper around one. Runs a compile-and-repair loop before handing anything back.
+
+**[knitbrain](https://github.com/PDgit12/knitbrain)**: local-first memory layer so coding agents keep real context across sessions instead of re-reading the whole codebase every time. 37 MCP tools, roughly 46% token reduction on real usage, published on npm.
+
+**[Comb](https://github.com/PDgit12/open-company-brain)**: self-hosted knowledge layer any AI tool can query, with cited answers and a full audit log. Requires human approval before any AI-proposed action executes.
+
+**[ZenithDB](https://github.com/PDgit12/zenithdb)**: vector search engine written from scratch in C with hand-written SIMD, not a wrapper around a general-purpose library. 4.7x faster than a standard loop.
+
+## Stack
+
+TypeScript · Python · C · PyTorch · PostgreSQL · Docker
+
+## GitHub stats
+
+![Piyush's GitHub stats](https://github-readme-stats.vercel.app/api?username=PDgit12&show_icons=true&theme=default&hide_border=true&count_private=true)
