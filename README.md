@@ -14,6 +14,8 @@ Building tools AI coding agents actually need: local-first memory, prompt-to-har
 
 **[ZenithDB](https://github.com/PDgit12/zenithdb)**: vector search engine written from scratch in C with hand-written SIMD, not a wrapper around a general-purpose library. 4.7x faster than a standard loop.
 
+**Self-Healing Vision Model**: production vision-drift detection pipeline. Compares a student model against a frozen teacher model to catch accuracy drops without new labeled data, then repairs only the responsible part of the model instead of a full retrain.
+
 ## Stack
 
 TypeScript · Python · C · PyTorch · PostgreSQL · Docker
