@@ -19,7 +19,3 @@ Building tools AI coding agents actually need: local-first memory, prompt-to-har
 ## Stack
 
 TypeScript · Python · C · PyTorch · PostgreSQL · Docker
-
-## GitHub stats
-
-![Piyush's GitHub stats](https://github-readme-stats.vercel.app/api?username=PDgit12&show_icons=true&theme=default&hide_border=true&count_private=true)
